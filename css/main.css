@@ -1,0 +1,141 @@
+/* Цвет основного текста #757575 */
+/* Цвет заголовка  #212121 */
+/* белый #FFFFFF */
+/* background наша команда #F5F4FA */
+/* Акцент #2196F3 */
+/* Цвет в футере мейла и телефона rgba(255, 255, 255, 0.6) */
+/* background #2F303A героя и подвала */
+/* черный в логотипе #000000  */
+
+/* Уникальный контент страницы */
+/* hero */
+.hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  background-color: #2f303a;
+  text-align: center;
+}
+.hero-title {
+  margin-bottom: 30px;
+
+  color: var(--primary-white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+.order-service {
+  justify-content: center;
+}
+.hero-button {
+  display: block;
+  padding: 10px 32px;
+  min-width: 200px;
+  border-radius: 4px;
+  border: 0px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  align-items: center;
+
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+
+/* section */
+
+.section-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+.section-title {
+  margin-bottom: 50px;
+}
+/* Преимущества */
+.feature-list {
+  display: flex;
+}
+.feature-list .feature-list-item {
+  width: 270px;
+}
+.feature-list .feature-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+.feature-list .title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+.feature-list-item > .title {
+  margin-bottom: 10px;
+}
+
+/* Примеры работ */
+.section.work {
+  padding-top: 0px;
+}
+.work-list {
+  display: flex;
+}
+.work-list .work-list-item {
+  display: block;
+  width: 370px;
+}
+.work-list .work-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+.work-list .work-list-image {
+  display: block;
+  max-width: 100%;
+}
+/* Команда */
+.section.team {
+  background-color: #f5f4fa;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+/* Карточка учасника команды */
+.team-list {
+  display: flex;
+}
+.team-list .team-list-item {
+  display: block;
+  width: 270px;
+  border-radius: 0px 0px 4px 4px;
+
+  background-color: var(--primary-white-color);
+  text-align: center;
+}
+.team-card-description {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.team-list .team-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+/* "Элемент фото с карточки учасника команды */
+.team-list .team-list-image {
+  display: block;
+  max-width: 100%;
+}
+/* Заголовок в карточке учасника команды */
+.team-list .title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  margin-bottom: 10px;
+}
