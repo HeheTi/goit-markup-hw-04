@@ -467,7 +467,8 @@ p {
   display: flex;
   justify-content: center;
 }
-.social-item {
+.social-item:not(:last-child) {
+  margin-right: 10px;
 }
 .social-link {
   display: flex;
@@ -499,15 +500,15 @@ p {
 }
 
 /* Постоянные клиенты */
-.container.client {
-  display: flex;
+.our-client {
+  max-width: 100%;
+  display: block;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-.client-item {
-  /* width: 170px;
-  height: 92px; */
+.client-list {
+  display: flex;
 }
 .client-item:not(:last-child) {
   margin-right: 30px;
