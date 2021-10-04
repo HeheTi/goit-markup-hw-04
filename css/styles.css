@@ -304,8 +304,8 @@ p {
   margin-right: auto;
 
   background-image: linear-gradient(
-      rgba(147, 148, 153, 0.4),
-      rgba(147, 148, 153, 0.4)
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
     ),
     url('../images/hero-img.jpg');
   background-repeat: no-repeat;
@@ -482,7 +482,7 @@ p {
   width: 20px;
   height: 20px;
 
-  fill: var(--primary-text-color);
+  fill: #afb1b8;
 }
 .social-link:hover,
 .social-link:focus {
@@ -531,7 +531,7 @@ p {
 .client-icon {
   width: 106px;
   height: 60px;
-  fill: var(--primary-text-color);
+  fill: #afb1b8;
 }
 .client-icon:hover,
 .client-icon:focus {
